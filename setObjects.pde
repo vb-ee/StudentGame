@@ -23,13 +23,13 @@ void setEnemy() {
   enemies[1] = new Enemy(260, 355, 2, 30, 25, "resources/english.png");
   enemies[2] = new Enemy(480, 290, 2, 30, 25, "resources/english.png");
   //math
-  enemies[3] = new Enemy(random(250, 530), random(275, 385), 1, 30, 30, "resources/math.jpg");
-  enemies[4] = new Enemy(random(300, 600), random(250, 450), 1, 30, 30, "resources/math.jpg");
-  enemies[5] = new Enemy(random(300, 600), random(250, 450), 1, 30, 30, "resources/math.jpg");
+  enemies[3] = new Enemy(random(250, 530), random(275, 385), 1, 35, 28, "resources/math.jpg");
+  enemies[4] = new Enemy(random(300, 600), random(250, 450), 1, 35, 28, "resources/math.jpg");
+  enemies[5] = new Enemy(random(300, 600), random(250, 450), 1, 35, 28, "resources/math.jpg");
   //attestation 
   enemies[6] = new Enemy(random(235, 530), random(275, 385), 1, 30, 30, "resources/A.jpg");
   //Others
-  enemies[7] = new Enemy(random(100, 700), random(100, 600), 5, 30, 25, "resources/I1.jpg");
-  enemies[8] = new Enemy(random(100, 700), random(100, 600), 5, 30, 25, "resources/I1.jpg");
-  enemies[9] = new Enemy(random(100, 700), random(100, 600), 5, 30, 25, "resources/I1.jpg");
+  enemies[7] = new Enemy(random(100, 700), random(100, 600), 5, 35, 32, "resources/physics.jpg");
+  enemies[8] = new Enemy(random(100, 700), random(100, 600), 5, 35, 32, "resources/physics.jpg");
+  enemies[9] = new Enemy(random(100, 700), random(100, 600), 5, 35, 32, "resources/physics.jpg");
 }

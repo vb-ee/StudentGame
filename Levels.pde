@@ -50,7 +50,7 @@ void nextLevel() {
   } else if (level == 5) {
     removeEnemy();
     image(enemies[6].enemy, 110, 90, 30, 25);
-    text(" - Attestaciya", 137, 110);
+    text(" - Attestation", 137, 110);
     enemies[6].moveAttestation();
     enemies[6].applyToAtt();
     enemies[6].displayEnemy();
@@ -63,7 +63,7 @@ void nextLevel() {
     }
   } else if (level == 7) {
     image(enemies[7].enemy, 220, 30, 35, 30);
-    text(" - Innovative Technnologies", 257, 50);
+    text(" - Physics", 257, 50);
     removeEnemy();
     diplom.moveDiploma();
     for (int i=4; i<=5; i++) {
@@ -177,9 +177,9 @@ void displayLevel() {
   fill(0);
   if (level <= 5) {
     text("Level: " + level, 620, 150);
-    text("Deaths: " + death, 110, 150);
+    text("Death: " + death, 110, 150);
   } else {
     text("Level: " + level, 620, 50);
-    text("Deaths: " + death, 110, 50);
+    text("Death: " + death, 110, 50);
   }
 }

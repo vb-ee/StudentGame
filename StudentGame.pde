@@ -24,7 +24,7 @@ void setup() {
 
 
 void draw() {
-  background(255);
+  background(#8ab7f8);
   setStudentCenter();
   if (level<=5) {
     for (int i=0; i<walls.length; i++) {
