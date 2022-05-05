@@ -5,7 +5,7 @@ Wall[] walls = new Wall[16];
 Student talyp;
 Diploma diplom;
 Enemy[] enemies = new Enemy[10];
-String audioName = "resources/music.mp3";
+String audioName = "../resources/music.mp3";
 PImage oguzhan;
 boolean imageDisplayed = true;
 Minim minim;
@@ -13,13 +13,13 @@ AudioPlayer player;
 
 
 void setup() {
-  oguzhan = loadImage("resources/Oguzhan.jpg");
+  oguzhan = loadImage("../resources/Oguzhan.jpg");
   playAudio();
   size(800, 600);
   setWall();
   setEnemy();
-  talyp = new Student(135, 220, 24, 25, 2, "resources/T.jpg");
-  diplom = new Diploma(640, 340, 1, 50, 38, "resources/grad.png");
+  talyp = new Student(135, 220, 24, 25, 2, "../resources/T.jpg");
+  diplom = new Diploma(640, 340, 1, 50, 38, "../resources/grad.png");
 }
 
 
